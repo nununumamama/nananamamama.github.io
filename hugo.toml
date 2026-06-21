@@ -1,5 +1,7 @@
 baseURL = "https://nununumamama.github.io/nananamamama.github.io/"
 languageCode = "ja-jp"
 title = "日記"
-
 theme = "PaperMod"
+
+relativeURLs = true
+canonifyURLs = true
