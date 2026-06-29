@@ -28,7 +28,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-                - name: Setup Pages
+      - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Setup Hugo
@@ -36,7 +36,7 @@ jobs:
         with:
           hugo-version: latest
           extended: true
-                - name: Build
+      - name: Build
         run: hugo
 
       - name: Upload artifact
